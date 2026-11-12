@@ -1,0 +1,54 @@
+{
+  "whisper_model": "small.en",
+  "whisper_device": "cpu",
+  "width": 1080,
+  "height": 1920,
+  "max_gap": 0.12,
+  "pad": 0.04,
+  "font": "TikTok Sans",
+  "caption_words": 3,
+  "mirror_phone_footage": false,
+  "captions": {
+    "size": 74,
+    "bold": true,
+    "outline": 5,
+    "margin_bottom": 520,
+    "strip_end_punctuation": true
+  },
+  "hook": {
+    "font": "TikTok Sans SemiBold",
+    "size": 62,
+    "bold": false,
+    "outline": 2,
+    "spacing": 0,
+    "shadow": 2,
+    "shadow_colour": "&H80000000",
+    "margin_bottom": 360,
+    "margin_right_bottom": 170,
+    "margin_top": 260,
+    "seconds": 0
+  },
+  "photo": {
+    "width": 620,
+    "gap": 30
+  },
+  "small_captions": {
+    "font": "TikTok Sans SemiBold",
+    "size": 46,
+    "outline": 3.5,
+    "shadow": 0,
+    "gap": 24,
+    "lowercase": true,
+    "min_words": 2,
+    "max_words": 3,
+    "max_chars": 18,
+    "four_word_chars": 14
+  },
+  "tight": {
+    "quiet_above_floor": 6.0,
+    "quiet_unvoiced_above_floor": 11.0,
+    "loud_above_floor": 12.0,
+    "edge_trim": 0.12,
+    "pad_end": 0.05
+  }
+}

@@ -1,0 +1,5 @@
+# Install into the folder's own virtual environment (see README.md).
+faster-whisper==1.2.1
+# Newer PyAV releases break faster-whisper 1.2.1 ("unexpected keyword argument 'metadata_errors'").
+av==15.1.0
+numpy

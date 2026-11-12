@@ -1,0 +1,11 @@
+.venv/
+models/
+cache/
+out/
+raw/*
+!raw/README.txt
+photos/*
+!photos/README.txt
+.DS_Store
+Thumbs.db
+__pycache__/
